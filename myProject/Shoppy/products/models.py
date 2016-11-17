@@ -1,6 +1,6 @@
 from django.db import models
 
-class Products(models.Model):
+class Product(models.Model):
     name = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
     category = models.CharField(max_length=255)
